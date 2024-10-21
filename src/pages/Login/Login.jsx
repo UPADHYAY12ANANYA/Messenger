@@ -1,13 +1,13 @@
 import React from 'react'
 import Lottie from 'lottie-react'
 import './Login.css'
-import Animation2 from '../../assets/Animation2.json'
+import Animation_Login from '../../assets/Animation_Login.json'
 
 function Login(){
     return(
         <div className='formContainer'>
             <div className='box'>
-                <Lottie animationData={Animation2} loop={true} className='animation'/>
+                <Lottie animationData={Animation_Login} loop={true} className='animation'/>
                 <div className="formWrapper">
                     <span className="logo">Messenger</span>
                     <span className="title">Login</span>

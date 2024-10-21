@@ -1,5 +1,5 @@
 .formContainer{
-    background-color: #a7bcff;
+    background-color: #fffff2;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -13,6 +13,7 @@
 }
 .formWrapper{
     background-color: white;
+    border: 1px solid #5e338e;
     padding: 20px 60px;  
     border-radius: 20px;
     display: flex;
@@ -28,7 +29,7 @@ form{
 input{
     padding: 10px;
     border: none;
-    border-bottom: 1px solid #a7bcff;
+    border-bottom: 1px solid #5e338e;
     width: 250px;
     outline: none;
 }
@@ -42,7 +43,7 @@ input{
     font-size: 18px;
 }
 .signin{
-    background-color: #7b96ec;
+    background-color: #5e338e;
     color: white;
     padding: 10px;
     border-radius: 20px;
@@ -51,9 +52,9 @@ input{
     cursor: pointer;
 }
 .signin:hover{
-    color: #7b96ec;
+    color: #5e338e;
     background-color: white;
-    border: 1px solid #7b96ec;
+    border: 1px solid #5e338e;
     transition: background-color 0.5s;
 }
 .animation{
