@@ -5,6 +5,12 @@
     align-items: center;
     justify-content: center;
 }
+.box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .formWrapper{
     background-color: white;
     padding: 20px 60px;  
@@ -27,12 +33,12 @@ input{
     outline: none;
 }
 .logo{
-    color: #5d5b8d;
+    color: #5e338e;
     font-weight: bold;
     font-size: 24px;
 }
 .title{
-    color: #5d5b8d;
+    color: #5e338e;
     font-size: 18px;
 }
 .signup{
@@ -59,4 +65,12 @@ p{
     width: 40px;
     height: 40px;
     cursor: pointer;
+}
+.fileUpload{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.animation{
+    width: 300px;
 }
