@@ -1,0 +1,13 @@
+.searchForm{
+    padding: 5px;
+    border-bottom: 1px solid gray; 
+}
+/* .searchForm:hover{
+    background-color: #2f2d52;
+} */
+.search-box{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
